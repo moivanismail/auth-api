@@ -21,6 +21,7 @@ const createServer = async (container) => {
     },
   ]);
 
+  // penanganan request hello world
   server.route({
     method: 'GET',
     path: '/',
